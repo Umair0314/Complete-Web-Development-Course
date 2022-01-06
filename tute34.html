@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and tex shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .card {
+        padding: 23px 12px;
+        margin: 23px 34px;
+        background-color: royalblue;
+        /* border: 2px solid red; */
+        /* box-shadow: 10px 13px; */
+        /* box-shadow: 7px 5px 10px 34px firebrick; */
+        box-shadow: inset 3px 5px;
+        box-shadow:   7px 5px green 10px 6px red;
+    }
+    .card h2{
+        text-shadow: 3px 4px red;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Thus is c++ course</h2>
+            <p>I have started this course from youtube by the help of Harry bhai.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>I have started this course from youtube by the help of Harry bhai.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2> What do you want to learn</h2>
+            <p>here a lot of things for you </p>
+        </div>
+    </div>
+</body>
+
+</html>

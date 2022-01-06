@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+.wrapper{
+    margin: 50px auto 0px auto;
+    width: 800px;
+}
+.main{
+    width: 800px;
+    float: left;
+}
+img{
+    width: 180px;
+    float: left;
+}
+article{
+    width: 180px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+.a1{
+    outline: 2px ;
+    /* margin: 5px; */
+}
+.i1{
+    outline: 2px ;
+    /* margin: 5px; */
+}
+    .a2{
+        outline: 2px solid red;
+        outline-offset: -4px;
+    }
+    .i2{
+        outline: 2px ;
+        
+    }
+    .a3{
+        outline: 2px ;
+    }
+    .i3{
+        outline: 2px ;
+    }
+    .a4{
+        outline: 2px ;
+    }
+    .i4{
+        outline: 2px ;
+    }
+    .a5{
+        outline: 2px ;
+    }
+    .i5{
+        outline: 2px ;
+    }
+    .a6{
+    
+        outline: 2px ;
+    }
+    .i6{
+        outline: 2px ;
+    }

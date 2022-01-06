@@ -1,0 +1,13 @@
+body{
+	background-image: url("img/WWE.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1{
+	background-color: white;
+}
+p{
+	background-color: wheat;
+	padding: 200px;
+	margin: 100px;
+}

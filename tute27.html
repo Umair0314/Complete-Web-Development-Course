@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibality and z index</title>
+</head>
+<style>
+    .box {
+        width: 170px;
+        height: 170px;
+        border: 2px solid black;
+    }
+
+    #box1 {
+        background-color: chartreuse;
+        /* visibility: hidden; */
+        /* display: none; */
+        position: relative;
+        /* top: 40px; */
+        width: 20%;
+        z-index: 40px;
+        left: 40px;
+        display: inline-block;
+    }
+
+    #box2 {
+        background-color: chocolate;
+         position: relative; 
+        /* top: 14px; */
+        width: 20%;
+        z-index: 30px; 
+        display: inline-block;
+    }
+
+    #box3 {
+        background-color: crimson;
+        display: inline-block;
+        width: 20%;
+        
+    }
+
+    #box4 {
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 20%;
+    }
+</style>
+
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+
+</html>

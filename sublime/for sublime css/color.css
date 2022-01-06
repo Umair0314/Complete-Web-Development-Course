@@ -1,0 +1,8 @@
+h1{
+	color: hotpink;
+	background-color: wheat;
+	border: 3px solid brown;
+	border-radius: 30px;
+	display: inline-block;
+	float: right;
+}

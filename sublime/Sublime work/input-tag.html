@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<nav style="background: red;">
+<form action="server1.html">
+	<div style="float: right; display: inline-block; background: wheat;cursor: pointer;">Search: <input type="search" name="search"> <br></div>
+	Name: <input type="text" name="username" autofocus maxlength="10" placeholder="Enter your name" required size="30"> <br>
+	Name: <input type="text" name="username" readonly value="This is read only"> <br>
+	Number: <input type="Number" step="4"> <br>
+	E-Mail: <input type="email" name="useremail"> <br>
+	Password: <input type="password" name="userpassword"> <br>
+	Mobile: <input type="tel" name="usermobile"> <br>
+	Date of Birth: <input type="date" name="dob"> <br>
+	Your Photo: <input type="file" name="photofile"> <br>
+	Gender: ------------------- <br>
+	Male <input type="radio" name="gender">
+	Female <input type="radio" name="gender">
+	Other <input type="radio" name="gender"> <br>
+	Language -------------------- <br>
+	English <input type="checkbox" name="lang"> 
+	Urdu <input type="checkbox" name="lang"> <br>
+	Time: <input type="Time" name="submittine"> <br>
+	DOB with time and date<input type="datetime-local" name="DOB"> <br>
+	Birth Month:<input type="Month" name="DOBMonth"> <br>
+	Week: <input type="week" name="week"> <br>
+	 Pick a Color<input type="color" name="uicolor"> <br>
+	 Person: <input type="number" name="personcount" min="1" max="7"> <br>
+	 <input type="file" accept="audio/*">
+	 Range: <input type="range" name="range" min="10" max="80"> <br>
+	 
+	 Website Url: <input type="url" name="websiteurl"> <br>
+
+	<input type="image" src="img/btn.jpg" width="50px">
+	<input type="reset" value="RESET">
+ China: <input type="checkbox" name="Country">
+ Pakistan: <input type="checkbox" name="Country" checked="">
+ <input type="" name="">
+ <br>
+ <input type="submit" value="Submit To Server 2" formaction="server2.html">
+</form>
+</nav>
+<form>
+	Fruits: <input list="fruits">
+	<datalist id="fruits">
+		<option value="Apple">
+		<option value="Guava">
+		<option value="Mango">
+	</datalist>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body{
+	background-image: url("img/new.jpg"),
+	url("img/WWE.jpg");
+	background-size: 500px,500px;
+	background-repeat: no-repeat,no-repeat;
+	background-position: 0px 0px, 700px 0px;
+}

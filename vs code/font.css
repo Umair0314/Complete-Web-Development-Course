@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.wrap{
+    margin: 100px auto 0px auto;
+    width: 100px;
+    outline: 3px solid blue;
+}
+p.fir{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 25px;
+    /* font-style: oblique; */
+    font-variant: small-caps;
+    line-height: 36px;
+    
+}
+.main{
+
+    
+}
+.main img{
+    float: left;
+    /* outline: 3px solid blue; */
+}
+article{
+    width: 500px;
+    float:left ;
+    padding: 10px;
+}
+p.sec{
+    color: wheat;
+    letter-spacing: 5px;
+    text-align: right;
+
+}
+h2{
+    color: hotpink;
+    letter-spacing: 3px;
+    text-align: right;
+}
+article{
+    outline: 3px solid blue;
+}

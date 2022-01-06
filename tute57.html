@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events and listening</title>
+</head>
+<style>
+    #btn{
+        padding: 10px 14px;
+        background color: coral;
+        border: 2px solid darkblue;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+</style>
+<body>
+    <!-- Browser events:
+    click 
+    contextmenue
+    ouseover/mouseout
+    ousedown/mouseup
+    mousemove
+
+    submit
+    focus
+
+    DOMContentLoaded
+    transitionend -->
+    <div class="container">
+        <h1>
+            This is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fugit numquam, dolores delectus vel soluta
+            modi itaque earum aperiam laborum reiciendis dolor, enim sed consectetur adipisci minus libero quibusdam
+            pariatur consequatur tenetur?</p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        let para = document.getElementById("para");
+        para.addEventListener("mouseover", function run(){
+            console.log("Mouse Inside")
+        });
+
+        para = document.getElementById("para");
+        para.addEventListener("mouseout", function run(){
+            console.log("Mouse now went outside")
+        });
+
+
+        function toggleHide(){
+            // let btn = document.getElementById("btn");
+            // let para = document.getElementById("para");
+            if(para.style.display != "none") {
+                para.style.display = "none";
+            }
+            else{
+                para.style.display = "block";
+
+            }
+        }
+    </script>
+</body>
+
+</html>

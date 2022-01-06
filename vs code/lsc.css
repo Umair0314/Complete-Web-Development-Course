@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    
+
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: wheat;
+}
+a:hover{
+    color: greenyellow;
+}
+.sec1{
+    float: left;
+    display: flex;
+}
+.sec2{
+    float: right;
+}

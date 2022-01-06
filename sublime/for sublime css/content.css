@@ -1,0 +1,19 @@
+body{
+	background-color: hotpink;
+}
+.box{
+	width: 800px;
+	height: 500px;
+	margin: 100px auto 0px auto;
+	border: 5px solid wheat;
+	color: blue;
+	overflow: auto;
+	background-image: url("img/WWE.jpg");
+	background-repeat: no repeat;
+	background-attachment: local;
+}
+h1,p{
+	margin: 25px 30px;
+	float: left;
+	font-family:'Qahiri', sans-serif; ;
+}

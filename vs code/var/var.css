@@ -1,0 +1,50 @@
+:root{
+    --uma:hotpink;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: tahoma;
+    background-image: url("img/new.jpg");
+    background-size: cover;
+}
+.about,.skills,.experience{
+    padding: 10px;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+.about{
+    margin-top: 0;
+}
+.header{
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.header hr{
+    border-color: var(--uma);
+    width: 100px;
+}
+.header h1{
+    color: var(--uma);
+}
+.about{
+    background: #fff;
+    box-shadow: 0px 1px5pz rgba(50, 50, 50, .2);
+}
+.skills{
+    background: var(--uma);
+    color: #fff;
+}
+.experience{
+    background: #fff;
+    color: #000;
+    box-shadow: 0px 1px 5px rgba(50, 50, 50, .2);
+}
+.footer{
+    background: var(--uma);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}

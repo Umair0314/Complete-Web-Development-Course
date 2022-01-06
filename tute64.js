@@ -1,0 +1,8 @@
+const fs = require("fs");
+let text = fs.readFileSync("umair.txt", "utf-8")
+text = text.replace("things", "Afzal");
+console.log("The content of the file is")
+console.log(text);
+
+console.log("Creating a new file...")
+fs.writeFileSync("Afzal.txt", text);

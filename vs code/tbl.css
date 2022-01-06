@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: monospace;
+}
+table, th, td{
+    border: 2px solid blue;
+}
+th, td{
+    padding: 5px 15px;
+}
+table{
+    border-collapse: collapse;
+    /* width: 300px;
+    table-layout: fixed;
+    empty-cells: hide; */
+
+}
+tr:hover{
+cursor: pointer;
+background-color: wheat;
+}
+tr:nth-child(even){
+    background-color:red;
+   color: yellowgreen; 
+}
+/* table{
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+tr{
+    vertical-align: bottom;
+}
+tr, th{
+    padding: 5px 10px;
+}
+caption{
+    caption-side: bottom;
+} */
